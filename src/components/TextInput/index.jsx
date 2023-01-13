@@ -13,6 +13,6 @@ export const TextInput = ({ searchValue, handleChange }) => {
 };
 
 TextInput.propTypes = {
-  searchValue: P.string.isRequired,
+  searchValue: P.string,
   handleChange: P.func.isRequired,
 };
